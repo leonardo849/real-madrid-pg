@@ -1,0 +1,62 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.25rem;
+}
+
+
+
+.header a {
+    text-decoration: none;
+    transition: font-size 0.2s ease;
+}
+
+.header a:hover {
+    font-size: 1.75rem;
+    color: gray;
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduce > p {
+    font-size: 1.1rem;
+}
+
+#real_flag_image {
+    width: 30%;
+    height: auto;
+}
+
+.world_tournament {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#real_madrid_borussia {
+    width: 40%;
+    height: auto;
+}
+
+.recent_champions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent_champions  ol {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+    padding-left: 0;
+}
