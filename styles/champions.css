@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.main img {
+    width: 50%;
+    height: auto;
+}

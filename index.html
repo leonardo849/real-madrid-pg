@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Madrid Page</title>
+    <link rel="icon" type="image/png" href="./images/real_madrid_icon.png">
+    <link href="./styles/general.css" rel="stylesheet">
     <link href="./styles/index.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <a href="https://pt.wikipedia.org/wiki/Real_Madrid_Club_de_F%C3%BAtbol">Wikipedia</a>
-        <a href="https://www.realmadrid.com/en-US">Official Site</a>
+        <a href="https://en.wikipedia.org/wiki/Real_Madrid_CF" target="_blank">Wikipedia</a>
+        <a href="https://www.realmadrid.com/en-US" target="_blank">Official Site</a>
     </header>
     <div class="introduce">
-        <h1 id="top">About Real Madrid</h1>
+        <h1>About Real Madrid</h1>
         <img src="./images/real_madrid_flag.webp" alt="real madrid flag"  id="real_flag_image">
         <p>Its best player is: <abbr title="Kylian Mbappé">Mbappé</abbr></p>
     </div>
@@ -25,34 +27,29 @@
         <h3>Recent Champions (after 2020)</h3>
         <ol>
             <li>
-                <a href="./champions/2023_2024.html#final" target="_blank">
+                <a href="./champions/2023_2024.html" target="_blank">
                 2023/2024
                 </a>
             </li>
             <li>
-                <a href="https://pt.wikipedia.org/wiki/Liga_dos_Campe%C3%B5es_da_UEFA_de_2021%E2%80%9322" target="_blank"">
+                <a href="./champions/2021_2022.html" target="_blank"">
                     2021/2022
                 </a>
             </li>
         </ol>
     </div>
-    <table>
-        <th>Contacts</th>
-       <tr>
-            <th scope="col"></th>
-            <th scope="col">Email</th>
-            <th scope="col">Phone Number</th>
-       </tr>
-       <tr>
-            <th scope="row"></th>
-            <td>presidencia@corp.realmadrid.com</td>
-            <td>+34 91 398 43 00</td>
-       </tr>
-    </table>
-    <p >
-        <a href="#top">
-            Top
-        </a>
-    </p>
+    <div class="table_container">
+        <h4>Contacts</h4>
+        <table class="table">
+            <tr>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>presidencia@corp.realmadrid.com</td>
+                <td>+34 91 398 43 00</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
